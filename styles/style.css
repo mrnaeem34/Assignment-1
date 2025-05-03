@@ -176,3 +176,16 @@ flex-grow: 0;
 margin: 32px 0px;
     
 }
+.resize{
+    gap: 20px; /* This adds space between the boxes */
+    justify-content: center;
+    /* Keeps layout responsive */
+    padding: 20px;
+    width: 600px;
+    align-items: center; 
+    padding-left: 600px;
+    border-radius: none;
+}
+.vas{
+    background-color: lightgray;
+}
