@@ -110,3 +110,22 @@ nav ul li{
     cursor: pointer;
 
 }
+.video-show{
+    align-items: center;
+   height: 700px;
+   
+}
+.video-title h1{
+    align-items: center;
+    text-align: center;
+
+}
+.video-title p{
+    align-items: center;
+    text-align: center;
+}
+.video-link{
+    align-items: center;
+    text-align: center;
+    
+}
