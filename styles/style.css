@@ -129,3 +129,50 @@ nav ul li{
     text-align: center;
     
 }
+/* terget-technology" */
+.aj{
+    height: 600px;
+    padding: 40px;
+    justify-content: center;
+}
+.terget{
+    display: flex;
+    gap: 20px; /* This adds space between the boxes */
+    justify-content: center;
+    /* Keeps layout responsive */
+    padding: 20px;    
+}
+.terget-technology{
+    display: block;
+}
+.color-content{
+    background-color: antiquewhite;
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+    
+}
+.color-content-1{
+    background-color: aqua;
+    /* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+  
+}
+.color-content-2{
+    background-color: burlywood;
+    
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+    
+}
