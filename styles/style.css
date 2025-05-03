@@ -4,6 +4,7 @@
     background-image: url('../assets/Hero-bg.png');
     background-repeat: none;
     height: 900px;
+  
 }
 
 /* nav style */
@@ -40,12 +41,14 @@ nav ul li{
    color: white;
    font-size: 20px;
    border: 10px;
+   cursor: pointer;
 }
 .btn-contact{
     margin-top: 20px;
    align-items: center;
    text-align: center;
    justify-content: center;
+   cursor: pointer;
    
 }
 /* content */
@@ -66,4 +69,44 @@ nav ul li{
     font-size: large;
     padding: none;
     justify-content: space-around;
+}
+/* content */
+.content-title h2{
+    font-size: 40px;
+    font-weight: 500;
+    font: bolder;
+    justify-content: center;
+}
+.content-title{
+    padding-top: 25px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.sub-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub-content h4{
+    margin: none;
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+}
+.hero-title{
+    align-items: center;
+    padding-left: 400px;
+    justify-content: center;
+}
+.banner-pic{
+    padding-right: 400px;
+}
+.jon h5{
+    font: 600;
+    font-weight: 700;
+    font-size: x-large;
+}
+.sub-btn{
+    cursor: pointer;
+
 }
